@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom style css */
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../media/burj-khalifa.webp");
+  text-align: center;
+}
+.body-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main {
+  margin: 0 auto;
+  padding: 0 32px;
+}
+h1 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  border-radius: 12px;
+  width: 30%;
+  height: 300px;
+  /* background-color: red; */
+  border: 2px solid black;
+  vertical-align: middle;
+}
+.box-container {
+  margin: 70px 0;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 35%;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+/* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+.box-1 {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.box-2 {
+  background: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+.box-3 {
+  background-image: radial-gradient(red, black);
+}
+.bg-tajmahal h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 220px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.section-2 {
+  margin-top: 90px;
+  padding: 70px;
+}
+.box-4 {
+  border-radius: 12px;
+  border: 1px solid black;
+  height: 500px;
+}
+
+.box-4 {
+  /* background-image: radial-gradient(red, black); */
+  /* background-image: linear-gradient(to left, white, black); */
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  background-size: cover;
+  background-image: url("../media/Taj-Mahal.jpg");
+}
+.bg-tajmahal {
+  border: 1px solid black;
+  /* background-image: radial-gradient(red, black); */
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+.bg-tajmahal1 {
+  border-radius: 12px;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    340deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+}
