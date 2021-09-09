@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+
+/* general */
+body {
+  background-color: #20222f;
+  font-size: 16px;
+  /* line-height: 1.5; */
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header */
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.dark-mode {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.dark-mode span {
+  color: #8991b3;
+}
+.dark-mode a {
+  color: #2c8a7d;
+  padding: 20px;
+  font-size: 20px;
+}
+.header p {
+  margin-bottom: 50px;
+  color: #8991b3;
+  text-transform: capitalize;
+}
+
+/* section */
+.article-1 p {
+  color: #8991b3;
+}
+.box-1 {
+  background-color: #252b43;
+  text-align: center;
+  width: 250px;
+  height: 220px;
+  border-radius: 3px;
+  border-top: 4px solid #178cf3;
+}
+.box-2 {
+  background-color: #252b43;
+  text-align: center;
+  width: 250px;
+  height: 220px;
+  border-radius: 3px;
+  border-top: 4px solid #178cf3;
+}
+.box-3 {
+  background-color: #252b43;
+  text-align: center;
+  width: 250px;
+  height: 220px;
+  border-radius: 3px;
+  border-top: 4px solid rgb(231, 138, 15);
+}
+.box-4 {
+  background-color: #252b43;
+  text-align: center;
+  width: 250px;
+  height: 220px;
+  border-radius: 3px;
+  border-top: 4px solid #b50931;
+}
+.social-nav {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.social-nav .youtube {
+  color: #b50931;
+}
+.social-nav .insta {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: linear-gradient(#405de6, #833ab4, #fd1d1d, #ffdc80);
+  /* color: #b50931; */
+}
+.social-nav a {
+  color: #178cf3;
+  font-size: 25px;
+}
+.social-nav span {
+  font-family: "Roboto", sans-serif;
+  color: #8991b3;
+  margin: 0 6px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 65px;
+}
+p {
+  color: white;
+  margin-bottom: 20px;
+  /* text-align: center; */
+  text-transform: uppercase;
+}
+.sort-icon {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sort-icon .youtube {
+  color: #b50931;
+}
+.sort-icon a {
+  color: #2c8a7d;
+  align-items: center;
+  font-size: 16px;
+}
+.sort-icon span {
+  color: #2c8a7d;
+  text-transform: capitalize;
+}
+/* overview section */
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 60px;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.overview-container {
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.overview-box {
+  background-color: #252b43;
+  width: 250px;
+  height: 110px;
+}
+.page-view-nav {
+  color: white;
+  padding: 15px 18px;
+}
+.page-view-nav a {
+  color: #178cf3;
+  font-size: 25px;
+}
+.page-view-nav span {
+  font-family: "Roboto", sans-serif;
+  color: #8991b3;
+  text-transform: capitalize;
+}
+.page-view-nav .youtube {
+  color: #b50931;
+}
+.page-1 {
+  padding: 10px 18px;
+}
+.page-1 span {
+  color: #2c8a7d;
+}
+h5 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 36px;
+}
+.youtube {
+  color: #b50931;
+}
+.red-color span {
+  color: #b50931;
+}
+.red-color a {
+  color: #b50931;
+}
+.green-color a {
+  color: #2c8a7d;
+}
